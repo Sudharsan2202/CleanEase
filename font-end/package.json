@@ -1,0 +1,45 @@
+{
+  "name": "font-end",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mdbootstrap/react-dropdown-button": "^1.0.0",
+    "antd": "^5.18.3",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "bootstrap-select": "^1.13.18",
+    "formik": "^2.4.6",
+    "proxy": "^2.2.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.3",
+    "react-bootstrap-buttons": "^1.0.0",
+    "react-bootstrap-modal": "^4.2.0",
+    "react-datepicker": "^7.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropdown": "^1.11.0",
+    "react-router-dom": "^6.24.0",
+    "react-stripe-checkout": "^2.6.3",
+    "react-tabs": "^6.0.2",
+    "react-toastify": "^10.0.5",
+    "styled-components": "^6.1.11",
+    "sweetalert2": "^11.12.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^4.0.0"
+  },
+  "proxy": "http://localhost:3000/"
+}
